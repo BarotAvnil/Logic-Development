@@ -1,4 +1,4 @@
-package Pattern_Problem;
+
 import java.util.Scanner;
 
 public class rightHalfPyramid {
