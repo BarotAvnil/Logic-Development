@@ -21,7 +21,7 @@ public class program37 {
         if (c1 != r2) {
             System.out.println("Error: Matrix multiplication not possible!");
             System.out.println("Columns of A must be equal to Rows of B.");
-            return; 
+            return;
         }
 
         int[][] A = new int[r1][c1];
