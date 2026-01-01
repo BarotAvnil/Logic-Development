@@ -5,9 +5,11 @@ public class armstrongNumber {
         int originalNum = num;
         int result = 0;
 
+        System.out.println(num % 10);
+
         while (num != 0) {
             int digit = num % 10;
-            result += Math.pow(digit, 3);
+            result += digit * digit * digit;
             num /= 10;
         }
 
