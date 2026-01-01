@@ -1,4 +1,3 @@
-
 // Remove Duplicates from an Array dynamically (print updated array)
 import java.util.Scanner;
 public class removeDuplicate {
